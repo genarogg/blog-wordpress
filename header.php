@@ -25,3 +25,18 @@
 
 	<?php wp_head(); ?>
 </head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="logo col-xs-12 col-sm-6">
+					<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="FalconMasters Logo"></a>
+				</div>
+				
+			</div>
+		</div>
+
+		
+			
+		
+	</header>
