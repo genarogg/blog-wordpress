@@ -53,5 +53,11 @@
 			</div>
 		</nav>
 			
-		
+		<div class="ad container hidden-xs">
+			<div class="row">
+				<div class="col-md-12">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : endif; ?>
+				</div>
+			</div>
+		</div>
 	</header>
