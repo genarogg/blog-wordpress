@@ -8,6 +8,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/estilos.css">
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>img/favicon.png" type="image/x-icon">
 
 	<!-- REVISAR ESTA PARTE ANTES DE GRABAR-->
 	<title>
