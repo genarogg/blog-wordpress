@@ -32,7 +32,11 @@
 				<div class="logo col-xs-12 col-sm-6">
 					<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="FalconMasters Logo"></a>
 				</div>
-				
+				<div class="redes-sociales col-xs-12 col-sm-6">
+					<a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a>
+					<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+				</div>
 			</div>
 		</div>
 
