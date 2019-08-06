@@ -40,7 +40,18 @@
 			</div>
 		</div>
 
-		
+		<nav class="menu">
+			<div class="container">
+				<div class="row">
+					<?php wp_nav_menu(array(
+						'container' => false,
+						'menu_class' => '',
+						'items_wrap' => '<ul class="col-md-12">%3$s</ul>',
+						'theme_location' => 'menu-top'
+					));	?>
+				</div>
+			</div>
+		</nav>
 			
 		
 	</header>
