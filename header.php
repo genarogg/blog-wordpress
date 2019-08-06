@@ -9,5 +9,19 @@
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/estilos.css">
 
-	
+	<!-- REVISAR ESTA PARTE ANTES DE GRABAR-->
+	<title>
+		<?php if (is_home()){
+			// Si estamos en la pagina de Inicio obtenemos el nombre del Blog
+			echo get_bloginfo('name');
+		} else if (is_single()){
+			// Si es un post mostramos el titulo
+			echo the_title();
+		} else {
+			// De otra forma obtenemos el titulo del post
+			echo get_bloginfo('name');
+		}?>
+	</title>
+
+	<?php wp_head(); ?>
 </head>
