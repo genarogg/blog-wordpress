@@ -16,7 +16,16 @@
 						<div class="thumb">
 							<a href="<?php the_permalink();?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'homepage-thumb' ); } ?></a>
 						</div>
-						
+						<div class="info">
+							<h2 class="titulo"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
+							<p class="fecha"><?php echo get_the_date(); ?></p>
+
+							<div class="extracto"><?php the_excerpt(); ?></div>
+							<!-- <p class="extracto"><?php the_excerpt(); ?></p> -->
+							<div class="categorias">
+								<?php the_category();?>
+							</div>
+						</div>
 					</div>
 				</article>
 
