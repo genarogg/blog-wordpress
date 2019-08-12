@@ -10,7 +10,16 @@
 		</div>
 	</div>
 
-	
+	<div class="widget boletin">
+		<div class="titulo-seccion">
+			<h3>Suscríbete</h3>
+			<form class="formulario" action="">
+				<label for="email">Suscríbete a nuestro boletín</label>
+				<input type="email" id="email" placeholder="Correo Electronico" required>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</div>
 
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar') ) : endif; ?>
 </aside>
