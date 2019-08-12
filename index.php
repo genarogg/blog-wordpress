@@ -11,7 +11,14 @@
 
 			<section class="row posts">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				
+				<article class="col-sm-6 post">
+					<div class="contenedor">
+						<div class="thumb">
+							<a href="<?php the_permalink();?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'homepage-thumb' ); } ?></a>
+						</div>
+						
+					</div>
+				</article>
 
 				
 			</section>
