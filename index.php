@@ -9,7 +9,12 @@
 				</div>
 			</div>
 
-			
+			<section class="row posts">
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				
+
+				
+			</section>
 		
 			
 		</section>
