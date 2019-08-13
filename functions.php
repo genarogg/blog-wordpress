@@ -22,7 +22,22 @@ register_sidebar(array(
 	'after_title' => '</h3>',
  ));
 
+// Registramos la zona de widgets del Sidebar
+register_sidebar(array(
+	'name' => 'Sidebar',
+	'before_widget' => '<div class="widget"><div class="titulo-seccion">',
+	'after_widget' => '</div></div>',
+	'before_title' => '<h3>',
+	'after_title' => '</h3>',
+ ));
 
-
+// Registramos la zona de widgets del Header
+register_sidebar(array(
+	'name' => 'Footer',
+	'before_widget' => '<div>',
+	'after_widget' => '</div>',
+	'before_title' => '<h3>',
+	'after_title' => '</h3>',
+ ));
 
 ?>
