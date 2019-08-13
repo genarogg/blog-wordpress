@@ -32,7 +32,11 @@
 				<?php endif; ?>
 			</section>
 		
-			
+			<section class="row paginacion">
+				<div class="col-md-12">
+					<div class="pagination"><?php wp_pagenavi(); ?></div>
+				</div>
+			</section>
 		</section>
 
 		<?php get_sidebar(); ?>
