@@ -9,6 +9,11 @@ register_nav_menus( array(
 // Agregamos el Soporte para Thumbnails
 add_theme_support( 'post-thumbnails' );
 
+// Agregamos un tamaño de imagen y permitimos que la imagen se corte si no cabe.
+add_image_size( 'homepage-thumb', 745, 372, true );
+
+
+
 
 
 ?>
