@@ -6,6 +6,8 @@ register_nav_menus( array(
 	'menu-footer' => 'Menu Footer'
 ));
 
+// Agregamos el Soporte para Thumbnails
+add_theme_support( 'post-thumbnails' );
 
 
 
