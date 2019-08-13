@@ -13,6 +13,15 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'homepage-thumb', 745, 372, true );
 
 
+// Registramos la zona de widgets del Header
+register_sidebar(array(
+	'name' => 'Header',
+	'before_widget' => '<div>',
+	'after_widget' => '</div>',
+	'before_title' => '<h3>',
+	'after_title' => '</h3>',
+ ));
+
 
 
 
