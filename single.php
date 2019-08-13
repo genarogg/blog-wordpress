@@ -26,7 +26,18 @@
 					<section class="comentarios col-sm-12">
 						<?php comments_template(); ?> 
 					</section>
-			
+				<?php endwhile; else: ?>
+					<article class="col-sm-12 post">
+						<div class="contenedor">
+							<div class="info">
+								<h2 class="titulo">El Post que buscas no existe</h2>
+								<div class="texto">
+									<p>Revisa que la URL que hayas ingresado sea correcta</p>
+								</div>
+							</div>
+						</div>
+					</article>
+				<?php endif; ?>
 			</section>
 		
 			
